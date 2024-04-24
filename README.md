@@ -14,6 +14,14 @@ I created this because sometimes I thought my mac battery was sufficiently charg
 3. set the environment variables
 4. done!
 
+### Sample .env
+```
+WEBHOOKS=https://discord.com/api/webhooks/0987654321/kdjsflkjfldkjslkfjlkdsjfkdjs
+SHEET_KEY=jsdfkljdfjk
+LAT=30.9987
+LON=-14.7688
+```
+
 ### Question?
 Need help on how to set up a cron job, integrating an alternative data platform, or configuring environment variables? Create an issue!
 
