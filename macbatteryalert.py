@@ -33,7 +33,7 @@ def calculate_distance(lat1, lon1, lat2, lon2):
 r = requests.get("http://ip-api.com/json/").json()
 
 gc = pygsheets.authorize(
-    service_file="/Users/ibrahimmudassar/downloads/macbattery/client_secret.json")
+    service_file="/client_secret.json")
 raw_battery_data = os.popen("pmset -g batt").read()
 formatted_battery_data = re.search(
     r"\s(\d+)\%\;.(.+)\;.(.+).present", raw_battery_data)
