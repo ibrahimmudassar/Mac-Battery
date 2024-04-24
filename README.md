@@ -9,7 +9,7 @@ I created this because sometimes I thought my mac battery was sufficiently charg
 
 
 ## DIY
-1. download the python file
+1. download [macbatteryalert.py](macbatteryalert.py)
 2. configure a cron job for time interval (mine is every 5 minutes)
 3. set the environment variables
   Note: I use google sheets for mine (I was experimenting with an alternative db) so feel free to use a sql db
